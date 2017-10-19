@@ -8,9 +8,12 @@ class NasabahController extends Controller
 {
    public function index(){
 
-      $nama = 'Ridwan Hasanah';
+      /*$nama = 'Ridwan Hasanah';
       $umur = 23;
-      $nasabah = array('Ridwan Hasanah','Ridho','Lukman');
+      $nasabah = array('Ridwan Hasanah','Ridho','Lukman');*/
+
+      $data['nama'] = 'Ridwan Hasanah';
+      $data['umru'] = 23;
 
    		return view('nasabah/index',compact('nama','umur','nasabah'));
    }
