@@ -20,3 +20,7 @@ Route::get('/pages', function () {
 });
 
 Route::resource('nasabah','NasabahController');
+
+Route::get('dashboard', function () {
+    return view('dashboard');
+});

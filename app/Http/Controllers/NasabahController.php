@@ -10,10 +10,11 @@ class NasabahController extends Controller
 
       /*$nama = 'Ridwan Hasanah';
       $umur = 23;
-      $nasabah = array('Ridwan Hasanah','Ridho','Lukman');*/
+      */
+      $nasabah = array('Ridwan Hasanah','Ridho','Lukman');
 
       $data['nama'] = 'Ridwan Hasanah';
-      $data['umru'] = 23;
+      $data['umur'] = 23;
 
    		return view('nasabah/index',compact('nama','umur','nasabah'));
    }
